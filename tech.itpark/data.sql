@@ -18,10 +18,10 @@ values (1, 'hello', 1, 2),
        (10, 'what a fuck???', 4, 5)
 ;
 
-insert into friends (pair_id, friend_name, friend_name2)
-values (1, 'Sasha', 'Masha'),
-       (2, 'Petya', 'Vasya'),
-       (3, 'Vasya', 'Dasha');
+insert into friends (pair_id, user_id, user_id2)
+values (1, 1, 2),
+       (2, 4, 5),
+       (3, 5, 3);
 
 
 

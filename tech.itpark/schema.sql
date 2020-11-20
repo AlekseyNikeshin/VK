@@ -14,6 +14,7 @@ create table  messages(
 
 create table friends(
 pair_id integer primary key autoincrement ,
-friend_name text not null references users,
-friend_name2 text not null references users
+user_id integer not null references users,
+user_id2 integer not null check (user_id2 != user_id)
+references users
 );
